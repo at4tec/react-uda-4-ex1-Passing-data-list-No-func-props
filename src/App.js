@@ -27,16 +27,17 @@ const users = [
   },
   ]
 
-const movies = {
-  1: {
+const movies = [
+  {},
+   {
     id: 1,
     name: 'Planet Earth 1',
   },
-  2: {
+   {
     id: 2,
     name: 'Selma',
   },
-  };
+]
 
 
 function App () {
