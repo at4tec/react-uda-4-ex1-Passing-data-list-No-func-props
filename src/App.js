@@ -2,39 +2,32 @@ import React from 'react';
 
 const profiles =[
   {
-    id: 1,
-    userID: '1',
-    favoriteMovieID: '2',
+    userID: 0,
+    favoriteMovieID: 1,
   },
   {
-    id: 2,
-    userID: '2',
-    favoriteMovieID: '1',
+    userID: 1,
+    favoriteMovieID: 0,
   },
 ];
 
 const users = [
-  {},
    {
-    id: 1,
     name: 'Jane Cruz',
     userName: 'coder',
   },
    {
-    id: 2,
     name: 'Matthew Johnson',
-    userName: 'mpage',
-  },
+    userName: 'mpage', 
+  }
   ]
 
 const movies = [
-  {},
    {
-    id: 1,
     name: 'Planet Earth 1',
   },
+
    {
-    id: 2,
     name: 'Selma',
   },
 ]
@@ -44,14 +37,7 @@ function App () {
    return (
        <ul>  
 	<h2>Favorite Movies</h2>
-          {/*
-          For each object in the profiles array, make a list of JSX elements.
-          The map function returns a new array, which will
-          only have list elements in it. React will automatically know how to
-          render an array of JSX objects.
-          */}
-         
-           
+               
           { profiles.map( (e) => ( 
               <li >
             
